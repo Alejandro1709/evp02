@@ -73,11 +73,37 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin: auto;
+  padding: 8px;
   border: 1px solid black;
 }
 
+.fact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 500px;
+}
+
+.fact.reversed {
+  flex-direction: column-reverse;
+}
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+/* About Page */
+#about-img {
+  width: 400px;
+}
+
+.showcase {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
