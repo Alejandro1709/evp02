@@ -81,6 +81,11 @@ body {
   border: 1px solid black;
 }
 
+.content.about {
+  border: none;
+  flex-direction: column;
+}
+
 .fact {
   display: flex;
   flex-direction: column;
@@ -91,6 +96,7 @@ body {
 .fact.reversed {
   flex-direction: column-reverse;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -104,6 +110,7 @@ body {
 
 .showcase {
   display: flex;
+  flex-direction: column;
   gap: 8px;
   flex-wrap: wrap;
 }
